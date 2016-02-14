@@ -1,7 +1,7 @@
 package com.speakingfish.common.function;
 
-public interface Creator<R, P> {
+public interface Creator<R, P> extends Mapper<R, P>{
     
-    R create(P params);
+    //R create(P params);
 
 }
